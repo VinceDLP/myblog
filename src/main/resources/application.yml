@@ -43,3 +43,8 @@ pagehelper:
   supportMethodsArguments: true
   params: count=countSql
   returnPageInfo: check
+##控制台打印sql配置
+logging:
+  level:
+    com.vince.myblog.dao:
+      debug
